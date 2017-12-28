@@ -18,14 +18,14 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ml-auto active">
             <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Mes projets</a>
+          <li class="nav-item ml-auto">
+            <a class="nav-link" href="#projets">Mes projets</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ml-auto">
             <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
@@ -39,37 +39,51 @@
   </div>
 </div>
 
-    <div class="container">
+    <div id="projets" class="container">
       <h2>Mes projets</h2>
-      <div class="card-deck">
-        <div class="card border-info">
-          <img class="card-img-top" src="images/halloween.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Projet Halloween</h4>
-            <p class="card-text">Projet présenté lors d'un meetup sur le développement web. Ce projet peut servir de template pour créer un portfolio.</p>
-            <p class="card-text"><small class="text-muted">Html5 & Css3 (Flexbox)</small></p>
+      <div class="row">
+        <div class="card-deck">
+          <div class="col-sm-12 col-md-4">
+            <div class="card border-info">
+              <a href="https://codepen.io/webdevthierry/full/EgKBOq"><img class="card-img-top" src="images/todoList.jpg" alt="Card image cap"></a>
+               <div class="card-body">
+                <h4 class="card-title">Todo List</h4>
+                <p class="card-text">Une todo liste avec possibilité de voir les todos, rajouter, barrer ou supprimer une todo.</p>
+                <p class="card-text"><small class="text-muted">Html5, Css3 & jQuery</small></p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card border-info">
-          <img class="card-img-top" src="images/colorGame.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="card border-info">
+              <a href="https://codepen.io/webdevthierry/full/GjJKaO"><img class="card-img-top" src="images/colorGame.jpg" alt="Card image cap"></a>
+              <div class="card-body">
+                <h4 class="card-title">Jeux de couleurs</h4>
+                <p class="card-text">Ce jeux de couleurs vous aide à apprendre le système de couleurs RGB. Plusieurs niveaux de difficulté possible</p>
+                <p class="card-text"><small class="text-muted">Html5, Css3 & JavaScript</small></p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card border-info">
-          <img class="card-img-top" src="images/todoList.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="card border-info">
+              <a href="https://github.com/webdevthierry/Meetup-Html-Css-Bootstrap"><img class="card-img-top" src="images/halloween.jpg" alt="Card image cap"></a>
+              <div class="card-body">
+                <h4 class="card-title">Projet Halloween</h4>
+                <p class="card-text">Projet présenté lors d'un meetup sur le développement web. Ce projet peut servir de template pour créer un portfolio.</p>
+                <p class="card-text"><small class="text-muted">Html5 & Css3 (Flexbox)</small></p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-
+    <footer class="text-muted">
+      <div class="container">
+        <p>hello</p>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
