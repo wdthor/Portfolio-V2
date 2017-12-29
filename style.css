@@ -1,3 +1,7 @@
+body {
+	padding-top: 56px;
+}
+
 .card-deck .card {
 	margin-bottom: 20px;
 }
